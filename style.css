@@ -57,11 +57,27 @@ section {
 /* Home Section */
 .home-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-
+@media(max-width:900px){
+  .home-text-container{
+    order: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .home-ruchi-img{
+    margin-top: 30px;
+  }
+}
 .home-text-container {
   max-width: 600px;
 }
@@ -131,7 +147,7 @@ section {
     box-shadow: 0 0 10px #0ef;
   }
   to {
-    box-shadow: 0 0 30px #0ef;
+    box-shadow: 0 0 50px #0ef;
   }
 }
 
@@ -166,13 +182,37 @@ section {
 
 .skill i {
   font-size: 80px;
-  color: #0ef;
 }
 
 .skill p {
   margin-top: 10px;
   font-weight: 500;
   color: white;
+}
+.item1{
+  color:rgb(172, 41, 41);
+}
+.item2{
+  color:#a0cd0d;
+}
+.item3{
+  color:#44258e;
+  
+}
+.item4{
+  color:#8bc8f6;
+}
+.item5{
+  color:#670f59;
+}
+.item6{
+  color:#25438e;
+}
+.item7{
+  
+}
+.item1{
+  
 }
 
 /* Projects */
